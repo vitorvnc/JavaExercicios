@@ -1,2 +1,2 @@
 # JavaExercicios
- Exericios de Java que fiz no bootcamp da Generation
+ exericicios de Java que fiz no Bootcamp Generation Brazil
