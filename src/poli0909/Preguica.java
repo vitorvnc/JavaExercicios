@@ -7,4 +7,10 @@ public class Preguica extends Animal{
 		return sobearvore;
 	}
 
+	@Override
+	public void emissaosom() {
+		System.out.println("zZZzZzzZZzZZZZZZzzZZ");
+		
+	}
+
 }

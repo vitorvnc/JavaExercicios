@@ -1,16 +1,10 @@
 package poli0909;
 
-
-public abstract class Animal {
-	private String nome, som;
+public abstract class Animal implements AnimalInterface {
+	private String nome;
 	 private int idade;
 	
-	public String getSom() {
-		return som;
-	}
-	public void setSom() {
-		this.som = "emitindo sooom uhuuuuu";
-	}
+	
 	
  
 	 public String getNome() {

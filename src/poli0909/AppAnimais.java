@@ -12,9 +12,12 @@ public class AppAnimais {
 		String nomes;
 		
 		//setando o barulinho em cada animal
-		cav1.setSom();
-		cach1.setSom();
-		preg1.setSom();
+		
+		TesteAnimal.testaAnimal(cav1);
+		TesteAnimal.testaAnimal(cach1);
+		TesteAnimal.testaAnimal(preg1);
+		
+		
 		
 		//usa os sets de cada objeto que instanciamos pra colocar o nome e idade em cada um deles
 		System.out.println("Insira o nome do cavalo: ");
@@ -46,21 +49,19 @@ public class AppAnimais {
 		if(cav1.isCorre()==true) {
 			System.out.println("CAVALO SABE CORRER");
 		}
-        System.out.println(cav1.getSom());
-        
+	
 		//exibindo dados do cachorro
 		System.out.println("\nNOME CACHORRO: "+cach1.getNome()+"\nIDADE: "+cach1.getIdade());
 		if(cach1.isCorre()==true) {
 			System.out.println("CACHORRO SABE CORRER");
 			}
-		System.out.println(cach1.getSom());
 		
 		//exibindo dados da preguiça
 		System.out.println("\nNOME DA PREGUIÇA: "+preg1.getNome()+"\nIDADE: "+preg1.getIdade());
 			if(preg1.isSobearvore()==true) {
 				System.out.println("A PREGUIÇA SOBE EM ARVORES");
 				}
-		System.out.println(preg1.getSom());
+		
 		
 		
 		ler.close();
